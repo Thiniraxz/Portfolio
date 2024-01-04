@@ -9,9 +9,9 @@ const Resume = () => {
 
     const handleButtonClick = () => {
        return window.open(
-        "https://drive.google.com/file/d/1h2u9hySuEHAqve9YBtrjmaekvpVzvs4a/view?usp=drive_link",
-        "_blank"
-      );
+         "https://drive.google.com/file/d/1mrXXzBtL-AR9aq8bzM6kZNRVIWLy02jF/view?usp=sharing",
+         "_blank"
+       );
     }
    
 
