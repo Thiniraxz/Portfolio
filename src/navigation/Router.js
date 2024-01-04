@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Main from "../View/index";
 import Parkinson from "../View/parkinson";
-import DataExplorer from "../View/dataexplorer";
+import DataExplorer from "../View/crypstoxplorer";
 
 
 function Router() {
