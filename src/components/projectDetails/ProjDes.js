@@ -10,7 +10,7 @@ function ProjDes(props) {
       <p className="text-base font-bodyFont leading-6 tracking-wide mb-8">
         {props.projectDesc}
       </p>
-      <div className="flex flex-row gap-5 items-center">
+      <div className="flex flex-row gap-5 ">
         <div style={{ marginRight: "20%" }}>
           <h3 className="text-3xl font-bold text-white mb-8 mt-3">
             Project Contributors

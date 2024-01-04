@@ -19,18 +19,24 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 gap-6 xl:gap-14 max-w-screen-md mx-auto">
         <ProjectsCard
+          title="Market Data Explorer Application"
+          des="Application that can be used by stock market and crypto currency traders
+              to collect, visualize and analyse market data."
+          src={DataExplorer}
+          link="dataexplorer"
+          demo={true}
+          github={true}
+          id={1}
+        />
+        <ProjectsCard
           title="Parkison Disease Detection System"
           des="A combination of Machine learning and a web based system to approximately
               detect whether a patient has Parkinson's disease or not."
           src={parkinson}
           link="parkinson"
-        />
-        <ProjectsCard
-          title="Market Data Explorer Application"
-          des="Application that can be used by stock market and crypto currency traders
-              to collect, visualize and analyse market data"
-          src={DataExplorer}
-          link="dataexplorer"
+          demo={false}
+          github={true}
+          id={2}
         />
       </div>
     </section>

@@ -49,7 +49,7 @@ function Parkinson() {
                         learning model and generate the result mentioning whether the patient is
                         having the disease or not."
             contributors={[
-              "Thinira Wanasinghe",
+              "Thinira Wanasinghe (thiniragenuka@gmail.com)",
               "Ayesh Vininda",
               "Nipun Pramuditha",
               "Thushalya Weerasuriya",
