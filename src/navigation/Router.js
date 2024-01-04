@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "../View/index";
-import Parkinson from "../View/Parkinson";
-import DataExplorer from "../View/DataExplorer";
+import Parkinson from "../View/parkinson";
+import DataExplorer from "../View/dataexplorer";
 
 
 function Router() {

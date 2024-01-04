@@ -1,6 +1,5 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import parkinson from "../../assets/ProjectImages/Parkinson/parkinson1.png";
 import DataExplorer from "../../assets/ProjectImages/DataExplorer/main.png";

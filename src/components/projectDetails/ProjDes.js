@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTools, FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaTools} from "react-icons/fa";
 
 function ProjDes(props) {
   return (
