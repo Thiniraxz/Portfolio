@@ -3,6 +3,7 @@ import Title from '../layouts/Title'
 import ProjectsCard from './ProjectsCard';
 import parkinson from "../../assets/ProjectImages/Parkinson/parkinson1.png";
 import DataExplorer from "../../assets/ProjectImages/DataExplorer/main.png";
+import PulmoSync from "../../assets/ProjectImages/Pulmosync/main.png";
 
 const Projects = () => {
   return (
@@ -36,6 +37,17 @@ const Projects = () => {
           demo={false}
           github={true}
           id={2}
+        />
+        <ProjectsCard
+          title="Lung sound classification to detect repiratory diseases (present - RnD project)"
+          des="Features dual Convolutional Neural Networks (CNNs) for lung disease
+                detection and categorization utilizing lung sounds, complemented by a Java-based mobile app for
+                real-time respiratory disease diagnosis from uploaded audio."
+          src={PulmoSync}
+          link="pulmosync"
+          demo={false}
+          github={false}
+          id={3}
         />
       </div>
     </section>

@@ -7,7 +7,7 @@ const ProjectsCard = ({ title, des, src, link, demo, github, id }) => {
     switch(id){
       case 1:
         return window.open(
-          "https://www.youtube.com/watch?v=yT5JExRGn4A&t=277s",
+          "https://www.youtube.com/watch?v=yT5JExRGn4A&t",
           "_blank"
         );
       default:
